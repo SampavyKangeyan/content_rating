@@ -28,8 +28,11 @@ class ContentRating extends Component {
     return (
      <>
         <div className='content-rating'>
+            <div className='image'>
+            <img src='https://tse2.mm.bing.net/th/id/OIP.IwrIRIl8qYp3dVA3e6a9-AHaJ4?r=0&cb=thfvnextfalcon&rs=1&pid=ImgDetMain&o=7&rm=3'/>
+            </div>
             <p>
-            This is content popularity showing page
+            Rate this Mothers' Day Greeting card!
             </p>
             <div className='rating-buttons'>
                 <button className="like-button" onClick={this.state.handleLike}>
